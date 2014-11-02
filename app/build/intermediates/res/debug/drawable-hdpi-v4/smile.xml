@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false"
+        android:drawable="@drawable/smiley_pressed" />
+    <item android:state_enabled="true"
+        android:state_pressed="true" android:drawable="@drawable/smiley_pressed" />
+    <item android:state_enabled="true"
+        android:state_focused="true" android:drawable="@drawable/smiley" />
+    <item android:state_enabled="true"
+        android:drawable="@drawable/smiley" />
+</selector><!-- From: file:/Users/amiShi/Documents/spring%2014/mobile%20app%20projects/minesweeper%20android%2022/app/src/main/res/drawable-hdpi/smile.xml -->

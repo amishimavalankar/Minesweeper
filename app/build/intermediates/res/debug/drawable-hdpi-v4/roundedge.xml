@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+    <solid android:color="@color/puzzle_dark"/>
+    <corners android:bottomLeftRadius="8dp"
+        android:topLeftRadius="8dp"
+
+        android:topRightRadius="8dp"
+            android:bottomRightRadius="8dp"/>
+    </shape>
+
+<!-- From: file:/Users/amiShi/Documents/spring%2014/mobile%20app%20projects/minesweeper%20android%2022/app/src/main/res/drawable-hdpi/roundedge.xml -->

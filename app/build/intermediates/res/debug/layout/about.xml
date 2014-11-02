@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:textAlignment="viewStart"
+    android:layout_gravity="start"
+    android:background="@drawable/black">
+
+    <TextView
+        android:id="@+id/about_content"
+
+        android:layout_marginTop="40dip"
+        android:textAlignment="gravity"
+        android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text"
+        android:textStyle="bold|italic"
+        android:textSize="14dp"
+        android:textColor="@color/puzzle_hilite"
+        />
+</ScrollView>
+
+<!-- From: file:/Users/amiShi/Documents/spring%2014/mobile%20app%20projects/minesweeper%20android%2022/app/src/main/res/layout/about.xml -->
